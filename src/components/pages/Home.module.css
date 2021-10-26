@@ -1,0 +1,17 @@
+.logo {
+	margin: 0rem;
+	width: 100%;
+	/*height: 70rem;*/
+	background-repeat: no-repeat;
+	background-image: url('../../images/logo.png');
+	background-size: 100% 100%;
+	/* background-color: #b0cccf; */
+}
+/* .home {
+	display: flex;
+
+	justify-content: center;
+} */
+.home_header {
+	text-align: center;
+}

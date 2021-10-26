@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/layout/Navbar';
+import { Route, Switch, Redirect } from 'react-router-dom';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import SignIn from './components/pages/SignIn';
+import Signup from './components/pages/Signup';
+import NewsLetter from './components/pages/NewsLetter';
+import Calendar from './components/pages/Calendar';
+import SignOut from './components/pages/SignOut';
+import NotFound from './components/pages/NotFound';
+import Footer from './components/layout/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<Navbar />
+			<div className="container ">
+				<Switch>
+					<Route exact path="/" component={Home} />
+					<Route path="/about" component={About} />
+					<Route path="/contact" component={Contact} />
+					<Route path="/login" component={SignIn} />
+					<Route path="/signup" component={Signup} />
+					<Route path="/newsletter" component={NewsLetter} />
+					<Route path="/calendar" component={Calendar} />
+					<Route path="/logout" component={SignOut} />
+					<Route path="/not-found" component={NotFound} />
+					<Redirect to="/not-found" />
+				</Switch>
+			</div>
+			<Footer />
+		</>
+	);
 }
 
 export default App;
