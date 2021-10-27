@@ -47,8 +47,8 @@ code {
 	color: rgb(224, 240, 240);
 }
 
-.facebook:hover {
-	background-color: blue;
+i:hover {
+	color: blue;
 }
 .logo_1 {
 	width: 350px;
@@ -83,12 +83,15 @@ code {
 
 .iconImage {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	margin: 30px;
+	padding: 14px;
+	gap: 30px;
 }
 
 .iconLinks {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 p {
 	font-size: 24px;

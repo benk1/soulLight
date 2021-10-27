@@ -11,35 +11,30 @@ function Footer(props) {
 					external sites.
 				</div>
 
-				<div className="iconLinks">
+				<div>
 					<ul className="iconImage">
 						<li>
-							<Link to="/http://www.linkedin.com/in/bernard-kakengi-ba2003173"></Link>
-						</li>
-						<li>
 							<Link to="#" className="grey-text text-lighten-3">
-								<i className="material-icons medium white-text facebook ">
-									facebook
-								</i>
+								<i className="fa fa-youtube medium" aria-hidden="true"></i>
 							</Link>
 						</li>
 						<li>
 							<Link to="#" className="grey-text text-lighten-3">
-								<i className="material-icons medium white-text facebook ">
-									facebook
-								</i>
+								<i className="fa fa-facebook medium" aria-hidden="true"></i>
 							</Link>
 						</li>
 						<li>
 							<Link to="#" className="grey-text text-lighten-3">
-								<i className="material-icons medium white-text facebook ">
-									facebook
-								</i>
+								<i className="fa fa-instagram medium" aria-hidden="true"></i>
+							</Link>
+						</li>
+						<li>
+							<Link to="#" className="grey-text text-lighten-3">
+								<i className="fa fa-twitter medium" aria-hidden="true"></i>
 							</Link>
 						</li>
 					</ul>
 				</div>
-				
 			</div>
 		</footer>
 	);
