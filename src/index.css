@@ -51,12 +51,11 @@ i:hover {
 	color: blue;
 }
 .logo_1 {
-	width: 350px;
+	/* width: 350px; */
 	height: 310px;
 	text-align: center;
 	border: none;
-	background: none;
-
+	background: #b0cccf;
 	text-decoration: none;
 	background-color: #b0cccf;
 }
@@ -93,6 +92,38 @@ i:hover {
 	display: flex;
 	justify-content: space-around;
 }
+
 p {
-	font-size: 24px;
+	font-weight: normal;
+	font-size: 21px;
+	padding: 5px 5px 5px 5px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.about_header {
+	text-align: center;
+}
+.logo_12 {
+	background-color: #b0cccf;
+	border: none;
+	outline: none;
+
+	height: 310px;
+	text-align: center;
+	border: none;
+}
+.wrapper {
+	padding: 20px;
+	/* margin-top: 20px; */
+}
+.book-appointment {
+	margin-bottom: -33px;
+}
+img {
+	width: 350px;
+	height: 210;
 }

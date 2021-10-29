@@ -10,6 +10,9 @@ import Calendar from './components/pages/Calendar';
 import SignOut from './components/pages/SignOut';
 import NotFound from './components/pages/NotFound';
 import Footer from './components/layout/Footer';
+import Cards from './components/services/Cards';
+import EnergyHealing from './components/services/EnergyHealing';
+import OracleCards from './components/services/OracleCards';
 
 function App() {
 	return (
@@ -25,6 +28,9 @@ function App() {
 					<Route path="/newsletter" component={NewsLetter} />
 					<Route path="/calendar" component={Calendar} />
 					<Route path="/logout" component={SignOut} />
+					<Route path="/cards" component={Cards} />
+					<Route path="/energyHealing" component={EnergyHealing} />
+					<Route path="/oracleCards" component={OracleCards} />
 					<Route path="/not-found" component={NotFound} />
 					<Redirect to="/not-found" />
 				</Switch>

@@ -4,6 +4,9 @@ import { NavLink } from 'react-router-dom';
 function SignedInLinks(props) {
 	return (
 		<ul className="right navLinks">
+			{/* <li>
+				<NavLink to="/calendar">Book Appointment</NavLink>
+			</li> */}
 			<li>
 				<NavLink to="/">Home</NavLink>
 			</li>
@@ -12,10 +15,26 @@ function SignedInLinks(props) {
 			</li>
 
 			<li>
-				<NavLink to="/newsletter">News Letter</NavLink>
-			</li>
-			<li>
-				<NavLink to="/calendar">Calendar</NavLink>
+				<NavLink
+					to="/newsletter"
+					className="dropdown-trigger"
+					data-target="dropdown1"
+				>
+					Services
+				</NavLink>
+
+				<ul id="dropdown1" className="dropdown-content">
+					<li>
+						<NavLink to="/cards">Cards Reading</NavLink>
+					</li>
+					<li>
+						<NavLink to="/energyHealing">Energy Healing</NavLink>
+					</li>
+					<li className="divider" tabindex="-1"></li>
+					<li>
+						<NavLink to="oracleCards">Oracle Cards Reading</NavLink>
+					</li>
+				</ul>
 			</li>
 			<li>
 				<NavLink to="/contact">Contact</NavLink>

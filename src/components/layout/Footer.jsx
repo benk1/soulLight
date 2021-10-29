@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Footer(props) {
 	return (
-		<footer className="page-footer grey darken-4  ">
+		<footer className="page-footer grey darken-4 footer  ">
 			<div className="container icons">
 				<div className="footer-copyright">
 					<b>© 2021 Copyright Soul Light.</b>Soul Light is not responsible of
@@ -31,6 +30,12 @@ function Footer(props) {
 						<li>
 							<Link to="#" className="grey-text text-lighten-3">
 								<i className="fa fa-twitter medium" aria-hidden="true"></i>
+							</Link>
+						</li>
+
+						<li>
+							<Link to="#" className="grey-text text-lighten-3">
+								<i class="fa fa-linkedin medium" aria-hidden="true"></i>
 							</Link>
 						</li>
 					</ul>
