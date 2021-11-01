@@ -13,12 +13,13 @@ import Footer from './components/layout/Footer';
 import Cards from './components/services/Cards';
 import EnergyHealing from './components/services/EnergyHealing';
 import OracleCards from './components/services/OracleCards';
+import Blog from './components/pages/Blog';
 
 function App() {
 	return (
 		<>
 			<Navbar />
-			<div className="container ">
+			<div>
 				<Switch>
 					<Route exact path="/" component={Home} />
 					<Route path="/about" component={About} />
@@ -31,6 +32,7 @@ function App() {
 					<Route path="/cards" component={Cards} />
 					<Route path="/energyHealing" component={EnergyHealing} />
 					<Route path="/oracleCards" component={OracleCards} />
+					<Route path="/blog" component={Blog} />
 					<Route path="/not-found" component={NotFound} />
 					<Redirect to="/not-found" />
 				</Switch>

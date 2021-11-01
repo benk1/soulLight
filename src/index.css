@@ -5,8 +5,7 @@
 }
 body {
 	font-family: 'Montserrat', sans-serif;
-	/* background-color: #b0cccf; */
-	background-color: rgb(224, 240, 240);
+	background-color: whitesmoke;
 }
 
 code {
@@ -21,24 +20,6 @@ code {
 	height: 64px;
 	overflow: hidden;
 }
-/* .logo {
-	display: flex;
-	justify-content: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-} */
-
-.logo {
-	margin: 0rem;
-	width: 100%;
-	/*height: 70rem;*/
-	background-repeat: no-repeat;
-	background-image: url('./images/minimal-geometric-stripe-shape-background_1409-1014.jpg');
-	background-size: 100% 100%;
-	/* background-color: #b0cccf; */
-}
 
 .navLinks {
 	font-weight: bold;
@@ -50,15 +31,7 @@ code {
 i:hover {
 	color: blue;
 }
-.logo_1 {
-	/* width: 350px; */
-	height: 310px;
-	text-align: center;
-	border: none;
-	background: #b0cccf;
-	text-decoration: none;
-	background-color: #b0cccf;
-}
+
 .logo_1 img {
 	border: none;
 	outline: none;
@@ -95,14 +68,15 @@ i:hover {
 
 p {
 	font-weight: normal;
-	font-size: 21px;
-	padding: 5px 5px 5px 5px;
+	font-size: 18px;
+	padding: 2px 2px 2px 2px;
 }
 
 .footer {
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
+	/* height: 20%; */
 }
 .about_header {
 	text-align: center;
@@ -116,14 +90,14 @@ p {
 	text-align: center;
 	border: none;
 }
-.wrapper {
-	padding: 20px;
-	/* margin-top: 20px; */
-}
+
 .book-appointment {
 	margin-bottom: -33px;
 }
 img {
-	width: 350px;
-	height: 210;
+	width: 100%;
+	height: 100%;
+}
+.appoinmentbtn:hover {
+	color: orange;
 }

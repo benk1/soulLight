@@ -4,9 +4,6 @@ import { NavLink } from 'react-router-dom';
 function SignedInLinks(props) {
 	return (
 		<ul className="right navLinks">
-			{/* <li>
-				<NavLink to="/calendar">Book Appointment</NavLink>
-			</li> */}
 			<li>
 				<NavLink to="/">Home</NavLink>
 			</li>
@@ -35,6 +32,10 @@ function SignedInLinks(props) {
 						<NavLink to="oracleCards">Oracle Cards Reading</NavLink>
 					</li>
 				</ul>
+			</li>
+
+			<li>
+				<NavLink to="/blog">Blog</NavLink>
 			</li>
 			<li>
 				<NavLink to="/contact">Contact</NavLink>
