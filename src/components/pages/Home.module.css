@@ -45,4 +45,17 @@
 	font-size: 2em;
 	font-weight: bold;
 	font-family: sans-serif, Arial, Helvetica;
+	text-align: center;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+li:hover {
+	color: blue;
+}
+li {
+	color: black;
 }

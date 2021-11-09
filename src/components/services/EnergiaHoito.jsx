@@ -2,12 +2,12 @@ import React from 'react';
 
 import { NavLink } from 'react-router-dom';
 
-function OracleCards(props) {
+function EnergiaHoito(props) {
 	return (
 		<div className="row wrapper">
-			<h3>This is a page about Tarot tulkinnat</h3>
+			<h3>This is a page about Energy Hoito</h3>
 		</div>
 	);
 }
 
-export default OracleCards;
+export default EnergiaHoito;

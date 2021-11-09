@@ -11,17 +11,21 @@ import SignOut from './components/pages/SignOut';
 import NotFound from './components/pages/NotFound';
 import Footer from './components/layout/Footer';
 import Cards from './components/services/Cards';
-import EnergyHealing from './components/services/EnergyHealing';
+// import EnergyHealing from './components/services/EnergyHealing';
 import OracleCards from './components/services/OracleCards';
 import Blog from './components/pages/Blog';
+import Introduction from './components/common/Introduction';
+import EnergiaHoito from './components/services/EnergiaHoito';
+import IntuitiivinenKanavointi from './components/services/IntuitiivinenKanavointi';
 
 function App() {
 	return (
 		<>
 			<Navbar />
+			<Introduction />
 			<div>
 				<Switch>
-					<Route exact path="/" component={Home} />
+					<Route exact path="/soulLight" component={Home} />
 					<Route path="/about" component={About} />
 					<Route path="/contact" component={Contact} />
 					<Route path="/login" component={SignIn} />
@@ -29,12 +33,16 @@ function App() {
 					<Route path="/newsletter" component={NewsLetter} />
 					<Route path="/calendar" component={Calendar} />
 					<Route path="/logout" component={SignOut} />
-					<Route path="/cards" component={Cards} />
-					<Route path="/energyHealing" component={EnergyHealing} />
-					<Route path="/oracleCards" component={OracleCards} />
+					<Route path="/aanihaaruka" component={Cards} />
+					<Route path="/energiaHoito" component={EnergiaHoito} />
+					<Route path="/tarottulkinnat" component={OracleCards} />
+					<Route
+						path="/intuitiivinenkanavointi"
+						component={IntuitiivinenKanavointi}
+					/>
 					<Route path="/blog" component={Blog} />
-					<Route path="/not-found" component={NotFound} />
-					<Redirect to="/not-found" />
+					<Route component={NotFound} />
+					{/* <Redirect to="/not-found" /> */}
 				</Switch>
 			</div>
 			<Footer />

@@ -1,0 +1,41 @@
+.bookAppointment {
+	display: flex;
+	justify-content: space-between;
+}
+.home_header1 {
+	font-size: 16px;
+	background: transparent;
+	font-weight: bold;
+	font-family: sans-serif, Arial, Helvetica;
+}
+/* .form {
+  background-color: #e2f6cd;
+} */
+.contact_wrapper {
+}
+.container {
+}
+.row_container {
+	position: fixed;
+
+	left: 0;
+	right: 0;
+
+	width: 100%;
+	height: 100%;
+	background-color: #e2f6cd;
+	border: 6px solid #e2f6cd;
+}
+button {
+	width: 100%;
+}
+.materializeTextarea {
+	height: 200px;
+}
+span {
+	display: none;
+	text-align: center;
+}
+span.visible {
+	display: block;
+}

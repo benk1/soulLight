@@ -1,0 +1,13 @@
+.bookAppointment {
+	display: flex;
+	justify-content: space-between;
+}
+.home_header1 {
+	font-size: 16px;
+	background: transparent;
+	font-weight: bold;
+	font-family: sans-serif, Arial, Helvetica;
+}
+.appointmentbtn:hover {
+	color: orange;
+}

@@ -7,44 +7,40 @@ import ilokuva from '../../images/Sinä.jpg';
 function Home(props) {
 	return (
 		<div className={`container ${classes.home_wrapper}`}>
-			<div className={classes.bookAppointment}>
-				<h3 className={classes.home_header1}>
-					Ben Kakengi, Bsc.-Software Engineer
-				</h3>
-				<NavLink
-					to="/calendar"
-					className="waves-effect waves-light btn-large blue darken-5 left appoinmentbtn"
-				>
-					Book Appointment
-				</NavLink>
-			</div>
 			<div className={`row ${classes.wrapper}`}>
 				<div className={`col s6 ${classes.contentsDiv}`}>
 					<h3 className={classes.home_header2}>Feel it with your soul</h3>
-					<p className={classes.paragraph}>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-						nihil iusto alias, necessitatibus sint sit provident dolore aliquid
-						quisquam. Culpa soluta ipsum nihil, numquam ullam quam architecto id
-						maxime dolorum!
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad fugit
-						blanditiis excepturi hic nam reiciendis! Expedita, veniam quidem
-						porro delectus nobis sapiente dolorem similique, sequi, totam sit
-						sint voluptatum commodi.
-					</p>
-					<p>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore at
-						laboriosam magnam cumque praesentium, tenetur iure. Quo voluptas
-						alias molestiae fuga sunt eum, deserunt odio, ducimus amet error
-						quam dolorum.
-					</p>
+					<div className={classes.paragraph}>
+						<h4>Sielun ja mielen hyvinvointipalvelut</h4>
+						<h4>Kaikki mitä tarvitset löytyy sydämmestäsi</h4>
+						<ul>
+							<NavLink to="/energiahoito">
+								<div className={classes.links}>
+									<i class="fa fa-link medium" aria-hidden="true"></i>{' '}
+									<li>Energiahoito</li>
+								</div>
+							</NavLink>
+							<NavLink to="/aanihaarukka">
+								<div className={classes.links}>
+									<i class="fa fa-link medium" aria-hidden="true"></i>{' '}
+									<li>Äänihaarukka hoito</li>
+								</div>
+							</NavLink>
+							<NavLink to="/tarottulkinnat">
+								<div className={classes.links}>
+									<i class="fa fa-link medium" aria-hidden="true"></i>
+									<li>Tarot tulkinnat</li>
+								</div>
+							</NavLink>
 
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-						quis accusamus ab aspernatur a sed debitis, in veniam non libero ut
-						totam. Minima ad dolorum modi dolore et quaerat necessitatibus?
-					</p>
+							<NavLink to="/intuitiivinenkanavointi">
+								<div className={classes.links}>
+									<i class="fa fa-link medium" aria-hidden="true"></i>
+									<li>Intuitiivinen kanavointi</li>
+								</div>
+							</NavLink>
+						</ul>{' '}
+					</div>
 				</div>
 				<div className={`col s6  ${classes.imageDiv}`}>
 					<div className={classes.cardImage}>

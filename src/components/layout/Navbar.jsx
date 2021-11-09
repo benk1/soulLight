@@ -8,9 +8,9 @@ function Navbar(props) {
 	return (
 		<nav>
 			<div className="nav-wrapper  grey darken-5">
-				<Link to="/" className="brand-logo ">
-					{/* <img src={soulLogo} className="soulLogo" alt="soul Light logo" /> */}
-				</Link>
+				{/* <Link to="/" className="brand-logo ">
+					<img src={soulLogo} className="soulLogo" alt="soul Light logo" />
+				</Link> */}
 				<SignedInLinks />
 				{/* <SignedOutLinks /> */}
 			</div>

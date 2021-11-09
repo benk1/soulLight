@@ -5,7 +5,9 @@ function SignedInLinks(props) {
 	return (
 		<ul className="right navLinks">
 			<li>
-				<NavLink to="/">Home</NavLink>
+				<NavLink exact to="/soulLight">
+					Home
+				</NavLink>
 			</li>
 			<li>
 				<NavLink to="/about">About</NavLink>
@@ -22,14 +24,20 @@ function SignedInLinks(props) {
 
 				<ul id="dropdown1" className="dropdown-content">
 					<li>
-						<NavLink to="/cards">Cards Reading</NavLink>
+						<NavLink to="/aanihaaruka">Äänihaaruka Hoito</NavLink>
 					</li>
 					<li>
-						<NavLink to="/energyHealing">Energy Healing</NavLink>
+						<NavLink to="/energiaHoito">Energia Hoito</NavLink>
 					</li>
 					<li className="divider" tabindex="-1"></li>
 					<li>
-						<NavLink to="oracleCards">Oracle Cards Reading</NavLink>
+						<NavLink to="/intuitiivinenkanavointi">
+							Intuitiivinen Kanavointi
+						</NavLink>
+					</li>
+
+					<li>
+						<NavLink to="/tarottulkinnat">Tarot Tulkinnat</NavLink>
 					</li>
 				</ul>
 			</li>
