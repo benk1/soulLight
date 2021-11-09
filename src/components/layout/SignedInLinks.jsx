@@ -24,20 +24,29 @@ function SignedInLinks(props) {
 
 				<ul id="dropdown1" className="dropdown-content">
 					<li>
-						<NavLink to="/aanihaaruka">Äänihaaruka Hoito</NavLink>
+						<NavLink className="blue-text darken-5" to="/aanihaaruka">
+							Äänihaaruka Hoito
+						</NavLink>
 					</li>
 					<li>
-						<NavLink to="/energiaHoito">Energia Hoito</NavLink>
+						<NavLink className="blue-text darken-5" to="/energiaHoito">
+							Energia Hoito
+						</NavLink>
 					</li>
 					<li className="divider" tabindex="-1"></li>
 					<li>
-						<NavLink to="/intuitiivinenkanavointi">
+						<NavLink
+							className="blue-text darken-5"
+							to="/intuitiivinenkanavointi"
+						>
 							Intuitiivinen Kanavointi
 						</NavLink>
 					</li>
 
 					<li>
-						<NavLink to="/tarottulkinnat">Tarot Tulkinnat</NavLink>
+						<NavLink className="blue-text darken-5" to="/tarottulkinnat">
+							Tarot Tulkinnat
+						</NavLink>
 					</li>
 				</ul>
 			</li>
@@ -53,7 +62,7 @@ function SignedInLinks(props) {
 			</li>
 
 			<li>
-				<NavLink to="/" className="btn btn-floating pink lighten-1">
+				<NavLink to="/soulLight" className="btn btn-floating pink lighten-1">
 					BK
 				</NavLink>
 			</li>

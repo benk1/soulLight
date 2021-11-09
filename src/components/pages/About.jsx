@@ -1,15 +1,20 @@
 import React from 'react';
 import classes from './About.module.css';
-import logo from '../../images/logo.png';
+// import logo from '../../images/logo.png';
+import profile_pic from '../../images/bernard.jpg';
 
 function About(props) {
 	return (
 		<div className="row about">
-			<h3 className="text-blue lighten-3 about_header">This is About page</h3>
+			<h3 className="text-blue lighten-3 about_header">This is About Me</h3>
 			<div className="col s12 m6 ">
 				<div className="card Card">
 					<div className="card-image">
-						<img src={logo} alt="About logo" className={classes.logo_12} />
+						<img
+							src={profile_pic}
+							alt="About logo"
+							className={classes.logo_12}
+						/>
 						<span className="card-title">Soul Light CEO</span>
 					</div>
 					<div className="card-content">
