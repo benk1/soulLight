@@ -43,10 +43,12 @@
 	font-family: sans-serif, Arial, Helvetica;
 }
 .home_header2 {
-	font-size: 2em;
-	font-weight: bold;
-	font-family: sans-serif, Arial, Helvetica;
 	text-align: center;
+	margin: 40px auto;
+	color: #333;
+	font-size: 2em;
+	/* font-weight: bold; */
+	font-family: sans-serif, Arial, Helvetica;
 }
 
 .links {

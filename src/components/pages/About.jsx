@@ -28,9 +28,9 @@ function About(props) {
 			</div>
 			<div>
 				<p>
-					Olen Maria Nurkkala. Kotoisin Kemistä ja Karjalaisilla sukujuurilla
-					varustettu. Nykyään asustelen Vantaalla. Perustin Soul Light yrityksen
-					oman henkisen havahtumisen jälkeen. Lapsiperhe arki toi mukanaan oman
+					Olen Ben. Kotoisin Kemistä ja Karjalaisilla sukujuurilla varustettu.
+					Nykyään asustelen Vantaalla. Perustin Soul Light yrityksen oman
+					henkisen havahtumisen jälkeen. Lapsiperhe arki toi mukanaan oman
 					jaksamisen kanssa taistelua ja univaikeuksia. Koin voimakkaan
 					unihalvaus kokemuksen, jonka jälkeen selvä-aistini alkoivat
 					avautumaan. Olen harrastanut tarot kortteja 14-vuotiaasti asti ja
@@ -48,9 +48,9 @@ function About(props) {
 				</p>
 
 				<p>
-					Olen Maria Nurkkala. Kotoisin Kemistä ja Karjalaisilla sukujuurilla
-					varustettu. Nykyään asustelen Vantaalla. Perustin Soul Light yrityksen
-					oman henkisen havahtumisen jälkeen. Lapsiperhe arki toi mukanaan oman
+					Olen Ben. Kotoisin Kemistä ja Karjalaisilla sukujuurilla varustettu.
+					Nykyään asustelen Vantaalla. Perustin Soul Light yrityksen oman
+					henkisen havahtumisen jälkeen. Lapsiperhe arki toi mukanaan oman
 					jaksamisen kanssa taistelua ja univaikeuksia. Koin voimakkaan
 					unihalvaus kokemuksen, jonka jälkeen selvä-aistini alkoivat
 					avautumaan. Olen harrastanut tarot kortteja 14-vuotiaasti asti ja
